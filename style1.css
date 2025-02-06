@@ -1,0 +1,19 @@
+body{
+    
+    background-color: aquamarine;
+    text-align: center;
+    text-decoration: dotted;
+    padding-right: 30px;
+    margin-top: 15px;
+}
+h1{
+    font-style: oblique;
+    color: aqua;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    size:40px;
+}
+p{
+    font-size: 15px;
+}
