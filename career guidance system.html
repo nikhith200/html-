@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Career Guidance System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Career Guidance System</h1>
+    <form id="career-form">
+      <label>What subject do you enjoy most?</label>
+      <select id="subject">
+        <option value="science">Science</option>
+        <option value="math">Math</option>
+        <option value="art">Art</option>
+        <option value="tech">Technology</option>
+      </select>
+      <label>Do you prefer working with:</label>
+      <select id="work-style">
+        <option value="people">People</option>
+        <option value="data">Data</option>
+        <option value="machines">Machines</option>
+      </select>
+
+      <button type="submit">Get Suggestion</button>
+    </form>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+style.css
+css
+Copy
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  padding: 20px;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+label, select, button {
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+}
+
+button {
+  padding: 10px;
+  background: #007BFF;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+script.js
+javascript
+Copy
+document.getElementById('career-form').addEventListener('submit', function (e) {
+  e.preventDefault();
+
+  const subject = document.getElementById('subject').value;
+  const workStyle = document.getElementById('work-style').value;
+  let suggestion = '';
+
+  if (subject === 'science' && workStyle === 'people') {
+    suggestion = 'Consider becoming a doctor or a healthcare professional.';
+  } else if (subject === 'math' && workStyle === 'data') {
+    suggestion = 'You might enjoy a career in data science or finance.';
+  } else if (subject === 'art' && workStyle === 'people') {
+    suggestion = 'Maybe explore graphic design, teaching, or media.';
+  } else if (subject === 'tech' && workStyle === 'machines') {
+    suggestion = 'Look into software development or robotics.';
+  } else {
+    suggestion = 'Consider exploring multiple options through internships or courses.';
+  }
+
+  document.getElementById('result').innerText = suggestion;
+});
+
+
+
