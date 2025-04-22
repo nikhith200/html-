@@ -1,0 +1,99 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</nav>
+</header>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+        css
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+    ```javascript
+
+// script.js
+console.log("Hello, World!");
+
+
+2.  **Back-end Developer**:
+    *   Focuses on server-side development, creating the logic and functionality that powers a website or web application using programming languages like Python, Ruby, or PHP.
+    *   Output: Robust and scalable server-side architecture that supports the front-end and ensures data integrity.
+    *   Code Example:
+        python
+# app.py (using Flask)
+from flask import Flask, jsonify
+
+app = Flask(_name_)
+
+@app.route('/api/data', methods=['GET'])
+def get_data():
+    data = {'name': 'John', 'age': 30}
+    return jsonify(data)
+
+if _name_ == '_main_':
+    app.run(debug=True)
+
+
+3. *Full-stack Developer*:
+    - Combines front-end and back-end development skills to build complete web applications.
+    - Output: End-to-end web applications that provide a seamless user experience and robust server-side functionality.
+    - Code Example:
+
+
+// server.js (using Node.js and Express)
+const express = require('express');
+const app = express();
+
+app.get('/api/data', (req, res) => {
+const data = { name: 'John', age: 30 };
+res.json(data);
+});
+
+app.listen(3000, () => {
+console.log('Server started on port 3000');
+});
