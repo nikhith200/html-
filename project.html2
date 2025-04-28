@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Guidance - Web Development</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #0077cc;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        section {
+            background-color: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        h2 {
+            color: #0077cc;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Career Guidance in Web Development</h1>
+        <p>Your journey to becoming a web developer starts here!</p>
+    </header>
+
+    <section>
+        <h2>Why Choose Web Development?</h2>
+        <p>Web development is a growing field with many opportunities. It offers creative freedom, remote working options, and strong salary prospects.</p>
+    </section>
+
+    <section>
+        <h2>Skills You Need</h2>
+        <ul>
+            <li>HTML, CSS, and JavaScript fundamentals</li>
+            <li>Responsive Design (Mobile-first approach)</li>
+            <li>Front-end Frameworks (e.g., React, Vue.js)</li>
+            <li>Back-end Development (e.g., Node.js, PHP)</li>
+            <li>Databases (SQL, MongoDB)</li>
+            <li>Version Control (Git/GitHub)</li>
+            <li>Problem-solving and continuous learning</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Career Paths</h2>
+        <ul>
+            <li>Front-end Developer</li>
+            <li>Back-end Developer</li>
+            <li>Full-stack Developer</li>
+            <li>UI/UX Designer</li>
+            <li>Web Designer</li>
+            <li>DevOps Engineer</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Resources to Get Started</h2>
+        <ul>
+            <li>FreeCodeCamp.org</li>
+            <li>MDN Web Docs (by Mozilla)</li>
+            <li>W3Schools</li>
+            <li>Coursera Web Development Courses</li>
+            <li>GitHub for hosting your projects</li>
+        </ul>
+    </section>
+
+    <footer>
+        &copy; 2025 CareerGuidance. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
